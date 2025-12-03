@@ -1,4 +1,4 @@
-const API_KEY = "6527475ec7a7fa60c1fec6fc879a2187";
+const API_KEY = "Enter your api key";
 
 // Event listeners for buttons
 document.getElementById("searchBtn").addEventListener("click", getWeather);
@@ -85,3 +85,4 @@ function getWeatherByCity(city) {
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(city)}&appid=${API_KEY}&units=metric`;
     fetchWeather(url);
 }
+
